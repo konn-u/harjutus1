@@ -2,7 +2,7 @@
 // Plaadi sisseehitatud LED on pinnil 13 (LED_BUILTIN).
 
 const int LED_PIN = LED_BUILTIN;
-const int VILKUMISE_AEG = 200;   // millisekundites
+const int VILKUMISE_AEG = 1000;   // millisekundites
 
 void setup() {
   pinMode(LED_PIN, OUTPUT);
